@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wvhp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0094-tenant/ci1t-830-0094-app/devfile-sample-wvhp@sha256:67a4b956b7f3effc2230f4dde683b07aaa4274b1be624b59038262793a5b4feb
         name: my-nodejs
         ports:
         - containerPort: 3001
